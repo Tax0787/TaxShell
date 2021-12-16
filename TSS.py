@@ -85,13 +85,3 @@ class {}({}):
 		                                    self.split2, self.ifs_bools,
 		                                    self.ifs_elses)
 		self.sose = sose
-
-
-a = TaxShellClass(
-    'HiShellScript', '', '\\n', '>ω<',
-    {'Command == \'hi\'': '  Script += \'print(\"hi\")\''}, '''
-   raise CommandsNotFoundError(\'the command {} is not found\'.format(Command))'''
-)
-exec(a.sose)
-a = HiShellScript()
-a.shell()
